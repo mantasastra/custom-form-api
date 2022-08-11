@@ -32,17 +32,40 @@ I have approached this challenge in the following way:
 
 ## Requirements
 
-- The form should have a unique id, a title, a description, a status, submission count and target, a list of fields (i.e. questions), a list of submissions and a date when it was submitted;
+- The form should have:
+  - a unique id,
+  - a title,
+  - a description,
+  - a status,
+  - submission count and target,
+  - a list of fields (i.e. questions),
+  - a list of submissions,
+  - a date when it was submitted;
 - The form should support the following fields:
   - Plain text field
   - Email text field
   - Single select dropdown field
   - Boolean field (Yes/No)
   - File field;
-- Each field should have an id, a type, a title, a description, an indication of whether it is required, available choices (applicable to boolean and single select dropdown fields), submitted answers, an indication of whether it is visible and conditional logic;
+- A field should have:
+  - a unique id,
+  - a type,
+  - a title,
+  - a description,
+  - an indication of whether it is required,
+  - available choices (applicable to boolean and single select dropdown fields),
+  - submitted answers,
+  - an indication of whether it is visible,
+  - conditional logic;
 - Any field should have the ability to be a conditional field. Conditional fields can only be triggered (i.e. become visible) if a previous field has a specific value;
 - Only a single select dropdown field and boolean field can trigger a conditional field;
-- Each submission should have a unique id, a status, recipient email address, a list of fields with selected answers, a date when it was sent to the recipient and the date when it was submitted by the recipient;
+- Each submission should have:
+  - a unique id,
+  - a status,
+  - recipient email address,
+  - a list of fields with selected answers,
+  - a date when it was sent to the recipient,
+  - a date when it was submitted by the recipient;
 - The order of the fields shown to the user is the same as the order of the field in the forms field list;
 - The form should have the functionality to be created;
 - The form should have the functionality to be sent to the user;
